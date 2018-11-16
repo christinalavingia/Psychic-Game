@@ -30,7 +30,6 @@ window.onload = function() {
         var displayWins = document.getElementById("wins");
         displayWins.innerHTML = wins;
         computerGuess = computerOptions [Math.floor(Math.random() * computerOptions.length)];
-        console.log(wins);
 
     } else if ((playerGuess !== computerGuess) && (guessesLeft > 0)) {
         guessesLeft--;
@@ -44,6 +43,7 @@ window.onload = function() {
         displayLosses.innerHTML = losses;
         computerGuess = computerOptions [Math.floor(Math.random() * computerOptions.length)];
         console.log(losses);
+        console.log(computerGuess);
         
         }
 
