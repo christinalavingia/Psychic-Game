@@ -36,7 +36,6 @@ window.onload = function() {
 
     } else {
         losses++;
-        lettersGuessed.length = 0;
         guessesLeft = 9;
         playerGuessArray.length = 0;
         var displayLosses = document.getElementById("losses");
