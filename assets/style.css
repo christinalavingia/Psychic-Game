@@ -7,15 +7,13 @@ body {
 
 h1 {
     font-family: 'Lobster', cursive;
-    font-size: 50px;
     margin-top: 40px;
-    margin-bottom: 40px;
+    font-size: 60px;
+    margin-bottom: 60px;
 }
 
-#content {
-    width: 960px;
-    font-size: 30px;
-    margin: 0 auto;
+.content {
     border: dotted 6px white;
     padding-bottom: 40px;
+    padding-top: 30px;
 }
